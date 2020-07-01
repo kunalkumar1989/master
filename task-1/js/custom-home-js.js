@@ -29,7 +29,7 @@ $(document).on('click','.modal-close, .modal-background',function() {
 });
 
 $(document).on('click','.image-anchor',function() {
-$(this).closest('.column').siblings('.column').find('a.details-info')[0].click();
+    $(this).closest('.column').siblings('.column').find('a.details-info')[0].click();
 });
 
 $(document).on('click','.details-info',function() {

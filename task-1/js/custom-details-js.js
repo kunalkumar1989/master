@@ -15,5 +15,5 @@ $(document).ready(function() {
 			"class": "details-result",
 			html: items.join( "" )
 		}).appendTo( ".container.details" );
-		});
+	});
 });
