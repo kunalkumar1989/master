@@ -38,3 +38,20 @@ $(document).on('click','.details-info',function() {
 	var imgUrl = $(this).parent().siblings('.column').find('img').attr('src');
 	localStorage.setItem("imgurl", imgUrl);
 });
+	
+	
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw-home.js').then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+	
+	
+	
+	
+	
+	

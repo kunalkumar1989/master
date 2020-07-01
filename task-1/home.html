@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#4285f4">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#4285f4">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
 		<title>The Rick and Morty</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="bulma-0.9.0/css/bulma.css">
-		<script src="js/custom-home-js.js"></script>
+		<script src="custom-home-js.js"></script>
+		<script src="sw-home.js"></script>
+		<link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+		<link rel="manifest" href="manifest.webmanifest">
+		<noscript>
+			<style type="text/css">
+				.container { display:none; }
+			</style>
+		</noscript>
 	</head>
 	<body>
 	  <div class="has-background-black container-wrapper">
