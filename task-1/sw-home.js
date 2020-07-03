@@ -1,15 +1,14 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  'jquery.js',
+  'https://code.jquery.com/jquery-3.5.1.min.js',
   'custom-home-js.js',
   'sw-home.js',
-  'sw-details.js',
   'manifest.webmanifest',
   'home.html',
-  'custom-details-js.js',
   'details.html',
   'bulma-0.9.0/css/bulma.min.css',
   'favicon.ico',
+  'apple-icon.png',
   'images/34.jpeg',
   'images/225.jpeg',
   'images/311.jpeg',
